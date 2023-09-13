@@ -16,3 +16,11 @@ def turtle_right() :
     turtle.setheading(0)
     turtle.forward(50)
 
+turtle.shape('turtle')
+
+turtle.onkey(turtle_up, 'w')
+turtle.onkey(turtle_left, 'a')
+turtle.onkey(turtle_down, 's')
+turtle.onkey(turtle_right, 'd')
+
+turtle.listen()
