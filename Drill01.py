@@ -5,7 +5,7 @@ def turtle_up() :
     turtle.forward(50)
     
 def turtle_left() :
-    turtle.setheading(1800)
+    turtle.setheading(180)
     turtle.forward(50)
     
 def turtle_down() :
